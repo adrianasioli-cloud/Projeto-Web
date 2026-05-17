@@ -15,6 +15,14 @@
       "cidade": "Betim",
       "estado": "MG",
       "id": "pkK4cRAk-yQ"
+    },
+    {
+      "nome": "Adriana Silva",
+      "email": "adrianaoliveirasilva.bh@gmail.com",
+      "senha": "123456Aos",
+      "cidade": "Contagem",
+      "estado": "MG",
+      "id": "f3-jywKsalQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
