@@ -1,0 +1,27 @@
+
+.topo {
+  background: #1e3a8a;
+  color: white;
+
+  padding: 15px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}
+
+.menu button {
+  width: auto;
+  background: white;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.menu button:hover {
+  opacity: 0.9;
+}

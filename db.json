@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "nome": "Pedro Theo",
+      "email": "pedro.theo@gmail.com",
+      "senha": "15152017",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "id": "Zb3IENSMF3A"
+    },
+    {
+      "nome": "Carlos Eduardo",
+      "email": "carlos.edu@gmail.com",
+      "senha": "0106052006",
+      "cidade": "Betim",
+      "estado": "MG",
+      "id": "pkK4cRAk-yQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
