@@ -1,27 +1,13 @@
 
-.topo {
-  background: #1e3a8a;
-  color: white;
-
-  padding: 15px 30px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.menu {
-  display: flex;
-  gap: 10px;
-}
-
-.menu button {
-  width: auto;
-  background: white;
-  color: #1e3a8a;
-  font-weight: bold;
-}
-
-.menu button:hover {
-  opacity: 0.9;
+body {
+  font-family: Arial, sans-serif;
+  color: #264653;
+  background: #f4f4f4;
+  
 }

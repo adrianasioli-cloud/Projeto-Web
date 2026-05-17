@@ -1,32 +1,33 @@
-
 @import url("login.css");
 @import url("corpo.css");
+@import url("cabecalho.css");
 
-.perfil  {
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 2rem;
   background: white;
-  padding: 32px;
   border-radius: 16px;
   width: 350px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .perfil button {
-    width: 100%;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    background-color: #0052cc;
-    color: #eee;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #14b8a6;
+  color: #eee;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 .perfil button:hover {
-    background-color: #1818b0;
-    gap: 0.3rem;
-    box-shadow: 0 0.3rem 0.8rem #0052cc4d;
-
+  background-color: #3b82f6;
+  gap: 0.3rem;
+  box-shadow: 0 0.3rem 0.8rem #0052cc4d;
 }
-

@@ -20,9 +20,17 @@
       "nome": "Adriana Silva",
       "email": "adrianaoliveirasilva.bh@gmail.com",
       "senha": "123456Aos",
-      "cidade": "Contagem",
+      "cidade": "Belo Horizonte",
       "estado": "MG",
-      "id": "f3-jywKsalQ"
+      "id": "Ra-OZTr"
+    },
+    {
+      "nome": "Victor Benfica",
+      "email": "victor.benfica@gmail.com",
+      "senha": "88755852",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "id": "y7WY5-C"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

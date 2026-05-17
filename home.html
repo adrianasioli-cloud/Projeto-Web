@@ -3,19 +3,32 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/estilo.css">
-
+  <title>Home</title>
 </head>
 
 <body>
+  <header class="topo">
+
+   <!-- LOGO -->
+    <div class="logo-area">
+
+     <img 
+     src="./assets/img/Logo ReUse com seta circular reciclável.png"
+     >
 
 
- <header class="topo">
+    </div>
 
-    <h2>Minha Home</h2>
-    <p id="usuario"></p>
+   <!-- USUÁRIO -->
+     <div class="usuario-area">
 
+     <p id="usuario"></p>
+
+    </div>
+
+       <!-- MENU -->
     <div class="menu">
 
       <button onclick="verPerfil()">
@@ -23,37 +36,20 @@
       </button>
 
       <button onclick="logout()">
-        Sair
+      Sair
       </button>
 
     </div>
 
-  </header>
+   </header>
 
- <main class="container">
+ 
 
-    <h1>Bem-vindo ao sistema</h1>
 
-    <p>Usuário logado com sucesso.</p>
-
-  </main>
-
-<script>
-
-const usuario = JSON.parse(localStorage.getItem('usuarioLogado'))
-
-document.write(`
-  <h2>${usuario.nome}</h2>
-  <p>${usuario.cidade} - ${usuario.estado}</p>
-`)
-
-</script>
 <script src="./assets/js/home.js"></script>
 <script src="./assets/js/auth.js"></script>
 <script src="./assets/js/perfil.js"></script>
 
 
 </body>
-
-
 </html>

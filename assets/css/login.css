@@ -1,7 +1,9 @@
 
 body {
-  font-family: Arial, Helvetica, sans-serif
-  background: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #264653;
+  margin-top: 40px;
+  background: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,15 +36,16 @@ button {
   margin-top: 16px;
   border: none;
   border-radius: 8px;
-  background: #4F46E5;
+  background: #14B8A6;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background: #4338CA;
+  background: #3B82F6;
 }
 
 p {
+  padding: 1rem;
   text-align: center;
 }
